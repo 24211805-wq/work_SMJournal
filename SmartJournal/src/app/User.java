@@ -50,7 +50,7 @@ public class User {
             do {
                 System.out.print("Enter display name: ");
                 this.displayName = input.nextLine();
-            } while (this.email.equals(""));
+            } while (this.displayName.equals(""));
 
             
             String passwd = "";
